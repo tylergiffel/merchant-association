@@ -1,0 +1,6 @@
+@MerchantAssociation.API_HostAddress = http://localhost:5270
+
+GET {{MerchantAssociation.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

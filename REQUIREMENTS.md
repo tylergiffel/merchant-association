@@ -17,11 +17,13 @@
 
 ### Requirements
 
-Businesses need to be able to add Events that they can display on their business page on the merchant site. These events need a name, description and start/end dates. Most of the events are one-off, but some recur on weekly and monthly intervals.
+Businesses need to be able to add Events that they can display on their business page on the merchant site. These events need a name, description and start/end dates. Most of the events are one-off (Pacers watch party), but some recur on weekly and monthly intervals (trivia nights).
 
-## Stretch Goals
+The API should provide an endpoint to list all of the events.
+
+## Stretch Goals/Ideas
 
 - Add unit tests
 - Add validation
-- Add an API level middleware (logging)
+- Add an API level middleware (logging/etc)
 - Add audit/timestamp properties to the entities
